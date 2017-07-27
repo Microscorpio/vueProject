@@ -32,11 +32,11 @@ export default {
       let result = [];
       // this.score 向下取整
       let score = Math.floor(this.score * 2) / 2;
-      console.log('score:' + score);
+      // console.log('score:' + score);
       let hasDecimal = score % 1 !== 0;
-      console.log('hasDecimal:' + hasDecimal);
+      // console.log('hasDecimal:' + hasDecimal);
       let integer = Math.floor(score);
-      console.log('integer:' + integer);
+      // console.log('integer:' + integer);
       for (let i = 0; i < integer; i++) {
         result.push(CLS_ON);
       }
@@ -46,7 +46,7 @@ export default {
       while (result.length < LENGTH) {
         result.push(CLS_OFF);
       }
-      console.log('result:' + result);
+      // console.log('result:' + result);
       return result;
     }
   }
