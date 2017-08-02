@@ -1,6 +1,6 @@
 <template lang="html">
     <div>
-      seller
+      前面rating都懒得不想敲了，seller就更不想敲了。
     </div>
 </template>
 

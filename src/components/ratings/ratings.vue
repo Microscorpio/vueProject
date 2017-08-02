@@ -1,6 +1,6 @@
 <template lang="html">
     <div>
-      ratings
+      懒得不想敲的ratings
     </div>
 </template>
 
